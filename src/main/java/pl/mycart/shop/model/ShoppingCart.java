@@ -3,11 +3,7 @@ package pl.mycart.shop.model;
 import pl.mycart.shop.util.Util;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ShoppingCart implements Serializable {
     private static final long serialVersionUID = -4461143736086272397L;

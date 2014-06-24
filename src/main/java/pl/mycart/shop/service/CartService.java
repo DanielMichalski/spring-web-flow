@@ -1,14 +1,10 @@
 package pl.mycart.shop.service;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import org.springframework.stereotype.Service;
 import pl.mycart.shop.model.Product;
 import pl.mycart.shop.model.ShoppingCart;
-import org.springframework.stereotype.Service;
+
+import java.util.*;
 
 // Commented this out since I want to specify the shippingOptions property in
 // the config file.
